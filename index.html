@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Моё резюме</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin: 0; padding: 1rem; background:#fff; color:#111; }
+    .wrap { max-width: 900px; margin: 0 auto; }
+    .pdf-frame { width: 100%; height: 80vh; border: 1px solid #ddd; box-sizing: border-box; }
+    .actions { margin: .6rem 0 1rem 0; }
+    .btn { display:inline-block; padding:.5rem .8rem; border:1px solid #ccc; text-decoration:none; border-radius:6px; margin-right:.5rem; }
+    @media (max-width:600px){ .pdf-frame { height: 60vh; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Мой сертификат о стажировке и рекомендация </h1>
+    <p>Ниже — PDF сертификатом и рекомендацией. Если браузер не поддерживает встроенный просмотр, используйте ссылку «Скачать».</p>
+
+    <div class="actions">
+      <a class="btn" href="certificate _and_recommendation.pdf" target="_blank" rel="noopener">Открыть в новом окне</a>
+      <a class="btn" href="certificate _and_recommendation.pdf" download>Скачать PDF</a>
+    </div>
+
+    <!-- Встраивание PDF -->
+    <iframe class="pdf-frame" src="certificate _and_recommendation.pdf" title="Резюме"></iframe>
+  </div>
+</body>
+</html>
